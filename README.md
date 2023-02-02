@@ -4,6 +4,11 @@
 
 The code is provided as-is with no warranties.
 
+
+To see what rendered, re-run with --disable-openapi-validation: 
+```
+helm install --dry-run --disable-openapi-validation moldy-jaguar ./mychart
+```
 ## Usage
 
 [Helm](https://helm.sh) must be installed to use the charts.
