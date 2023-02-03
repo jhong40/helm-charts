@@ -24,6 +24,15 @@ helm repo index helm-example/ --url https://gree-gorey.github.io/helm-example/  
 git commit -a -m "change index"
 git push origin
 ```
+```
+helm repo add helm-example https://gree-gorey.github.io/helm-example
+$ helm repo list
+NAME            URL                                        
+helm-example    https://gree-gorey.github.io/helm-example
+
+
+$ helm install helm-example/my-app --name=my-app-name
+```
 
 ```
 $ cat helm-example/index.yaml 
