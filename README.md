@@ -2,7 +2,7 @@
 ```
 helm lint chartdir
 helm template chartdir
-helm install --dry-run --disable-openapi-validation mrelease mychart
+helm install --dry-run --debug --disable-openapi-validation mrelease mychart
 ```
 
 ## Helm chart package
