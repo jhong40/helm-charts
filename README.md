@@ -2,6 +2,8 @@ To see what rendered, re-run with --disable-openapi-validation:
 ```
 helm install --dry-run --disable-openapi-validation moldy-jaguar ./mychart
 ```
+## Helm chart package
+https://medium.com/containerum/how-to-make-and-share-your-own-helm-package-50ae40f6c221
 
 # Jenkins Community Kubernetes Helm Charts
 
